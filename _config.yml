@@ -1,1 +1,43 @@
-theme: jekyll-theme-architect
+# Site settings
+title: Bruce的工作室
+description: 个人Bolg
+# baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
+baseurl: "" 
+# url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: ""
+# User settings
+username: Bruce
+user_description: 前端无业游民
+email: bruce870827@gmail.com
+# twitter_username: lorem_ipsum
+github_username:  bruce870827
+gplus_username:  bruce827(好像要被注销)
+# disqus_username: lorem_ipsum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: 首页
+    url: /
+  - title: 系列教程
+    url: /series
+  - title: 标签
+    url: /tags
+  - title: 关于我
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

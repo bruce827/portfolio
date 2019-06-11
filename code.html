@@ -1,0 +1,115 @@
+<template>
+    <div id="app">
+        <img width="25%" src="./assets/logo.png">
+        <p>count:{{ count }}</p>
+        <button @click="setCount(count+1)">
+            +1
+        </button>
+        <button @click="setCount(count-1)">
+            -1
+        </button>
+    </div>
+</template>
+<script>
+    import { store, mutations } from "./store";
+    export default {
+        name: "App",
+        computed: {
+            count() {
+                return store.count;
+            }
+        },
+        methods: {
+            setCount: mutations.setCount
+        }
+    };
+</script>
+
+<template>
+
+    < BaseList v-bind="$props" v-on="$listeners">
+        <!-- ... -->
+    </ BaseList>
+
+
+
+</template>
+
+
+
+
+<script>
+
+
+
+
+    import
+
+    BaseList
+        from
+        "./BaseList"
+        ;
+
+
+
+
+    // 包含了基础的属性定义
+
+
+
+
+    import
+
+    BaseListMixin
+        from
+        "./BaseListMixin"
+        ;
+
+
+
+
+    // 封装了排序的逻辑
+
+
+
+
+    import
+    sort from
+        "./sort.js"
+        ;
+
+
+
+
+
+    export
+
+        default
+        {
+
+
+
+            props:
+                BaseListMixin
+                    .props,
+
+
+
+            components: {
+
+
+
+
+                BaseList
+
+
+
+            }
+
+
+
+        };
+
+
+
+</script>
