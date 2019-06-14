@@ -4,3 +4,4 @@ _site
 node_modules
 assets/img/.DS_Store
 assets/img/.DS_Store
+_config.yml
