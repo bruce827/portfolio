@@ -4,10 +4,11 @@ title: "极简交互设计规范"
 date: 2019-05-03 20:34:26
 image: '/assets/img/'
 description: '不讲大道理，只告诉你怎么做'
-main-class: 'jekyll'
+main-class: 'UX'
 color: '#B31917'
 tags:
-- jekyll
+- UX
+- 规范
 categories:
 twitter_text: 'Put your twitter description here.'
 introduction: '不讲大道理，只告诉你怎么做'
