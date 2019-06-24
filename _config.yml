@@ -2,12 +2,15 @@
 title: Bruce的工作室
 description: 个人Bolg
 # baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
-baseurl: "/portfolio" 
+# baseurl: "/portfolio" 
 # url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "https://bruce827.github.io/portfolio"
+# url: "https://bruce827.github.io/portfolio"
+# 测试本地环境
+baseurl: ''
+url: '' 
 # User settings
-username: Bruce
-user_description: 前端无业游民
+username: 徐健
+user_description: UX、数据分析、产品、前端
 email: bruce870827@gmail.com
 # twitter_username: lorem_ipsum
 github_username:  bruce870827
