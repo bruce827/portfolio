@@ -28,3 +28,6 @@ introduction: "Alguns motivos para se usar SVG no seu workflow e alguns exemplos
 
 ## 图表制作工具
 [infogr.am](https://infogram.com/)
+
+## python和mongodb
+[python操作](https://mp.weixin.qq.com/s/MS6p33NGsY_Dk5LN-tsEtQ)
