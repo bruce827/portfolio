@@ -54,7 +54,7 @@ introduction: '基于一次从零到一的产品实践'
 业务系统布局（面向用户）：  
 ![layout]({{"/assets/img/HMI/style-guide/layout.png" | prepend: site.url }})  
 后台管理系统布局（客户及管理人员）：
-![后台管理系统布局]({{"/assets/img/HMI/style-guide/layout.png" | prepend: site.url }})
+![后台管理系统布局]({{"/assets/img/HMI/style-guide/console-layout.png" | prepend: site.url }})
 说明：  
     考虑到整体内容区域采用固定宽度（fixed）布局而非流式（float）布局，这两种布局在1080px及以下宽度的显示器下展示是没有区别的。
     [演示一下](http://localhost:8000/userCenter/Workplace)
