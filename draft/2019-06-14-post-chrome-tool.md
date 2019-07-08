@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+# comments: true
 title: "chrome调试技巧"
 date: 2019-06-14 01:40:25
 image: '/assets/img/'
@@ -34,7 +34,8 @@ console.log("%c自定义样式","font-size:30px;color:#00f");
 console.log("%c我是%c自定义样式","font-size:20px;color:green",
 "font-size:10px;color:red");
 {% endhighlight %}
-值得注意的是，error也仅仅是输出样式的改变，并不会捕获该异常；一般情况下我们会用`====`分隔，不会用到更改文字样式。
+值得注意的是，error也仅仅是输出样式的改变，并不会捕获该异常；
+一般情况下我们会用`====`分隔，不会用到更改文字样式。
 
 ## console 输出多对象的集合
 {% highlight  javascript %}
