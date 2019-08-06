@@ -2,11 +2,11 @@
 title: Bruce的工作室
 description: 个人Bolg
 # baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
-baseurl: "/portfolio" 
+# baseurl: "/portfolio" 
 # url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 url: "https://bruce827.github.io/portfolio"
 # 测试本地环境
-# baseurl: ''
+baseurl: ''
 # url: '' 
 # User settings
 username: 徐健
