@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "画一个描述准确的统计图"
+title: "2.画一个描述准确的统计图"
 date: 2019-09-12 08:37:53
 image: '/assets/img/'
 description: 统计图首先要做到描述准确，再做到形式酷炫

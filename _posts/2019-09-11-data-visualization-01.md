@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "为自己的数据选择合适的可视化方案"
+title: "1.为自己的数据选择合适的可视化方案"
 date: 2019-09-11 10:02:02
 image: '/assets/img/'
 description: 一篇实用性极强的选择方案
