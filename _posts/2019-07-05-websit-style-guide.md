@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "课题类管理系统样式指南"
+title: "平台类管理系统样式指南"
 date: 2019-07-05 00:34:20
 image: '/assets/img/'
 description: '基于Material Design与国内课题的共有特点，设计后台管理系统样式指南'
@@ -27,7 +27,7 @@ introduction: '基于一次从零到一的产品实践'
         <tr>
             <td>V0.5</td>
             <td>创建文档</td>
-            <td>2019-07-07</td>
+            <td>2020-07-07</td>
             <td>徐健</td>
             <td>徐健</td>
         </tr>
@@ -39,7 +39,7 @@ introduction: '基于一次从零到一的产品实践'
 3. 特定项目的业务咨询人员做风格演示。
 
 ## 前言
-1. 本视觉规范经过《随访项目》9.20上线版本（迭代一）的实际验证。
+1. 本视觉规范需经过上线版本（迭代一）的实际验证。
 2. 设计稿安全范围：宽度，1080px，高度：不限。
 3. 以google的Material Design（物质设计）为基础，添加可以简化用户操作的交互组件，打造高效定制化产品。  
 
@@ -138,7 +138,7 @@ introduction: '基于一次从零到一的产品实践'
 ### 提示
 ![提示]({{"/assets/img/HMI/style-guide/alertstyle.png" | prepend: site.url }})
 
-## 文档规划
+<!-- ## 文档规划
 <table style="width: 800px;">
     <tbody>
         <tr>
@@ -162,9 +162,9 @@ introduction: '基于一次从零到一的产品实践'
             <td>经过测试验证且修改后的可发布版本，此版本包括word、pdf、ppt三种格式</td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
-## 需要资源
+<!-- ## 需要资源
 <table style="width: 800px;">
     <tbody>
         <tr>
@@ -198,4 +198,4 @@ introduction: '基于一次从零到一的产品实践'
             <td>待定</td>
         </tr>
     </tbody>
-</table>
+</table> -->
