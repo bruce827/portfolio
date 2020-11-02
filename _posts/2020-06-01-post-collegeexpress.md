@@ -69,3 +69,56 @@ introduction: 远程授课经验与技巧
 ### 问题四：分组联调时候发现一个摸鱼的
 我的责任，要好好总结如何避免。
 
+*** 
+-------------------一个半年的分隔线--------------------
+## 关于线下授课的一些补充
+
+### 线下授课与线上授课的比较
+#### 线下授课的优势
+![梅拉宾信息传递]({{"other/communicate-efficiency.jpg" | prepend: page.image | prepend: site.baseurl}})
+#### 地域差异导致的沟通障碍
+{% highlight  javascript %}
+    this.$refs['dataForm'].validate(valid => {
+                        if (valid) {
+                            const tempData = Object.assign({}, this.temp, {type:1})
+                            createOrEdit(tempData).then((res) => {
+                                // TODO:联调时候删除
+                                for (const v of this.list) {
+                                    if (v.companyId === this.temp.companyId) {
+                                        const index = this.list.indexOf(v)
+                                        this.list.splice(index, 1, this.temp)
+                                        break
+                                    }
+                                }
+                                // TODO：联调时候打开
+                                // this.getList()
+                                this.dialogFormVisible = false
+                                this.$notify({title: '成功', message: res.msg, type: 'success', duration: 2000})
+                            })
+                        }
+                    })            
+...
+{% endhighlight %}
+
+{% highlight  javascript %}
+    nameValidator(name, list) {
+                let flag = list.every((curr, index) => (curr.companyName !== name))
+                !flag && this.$notify({title: '校验失败', message: "业务方名称不能相同。", type: 'error', duration: 2000})
+                return flag
+            }          
+{% endhighlight %}
+[再举一个别人的例子](https://es6.ruanyifeng.com/#docs/iterator)
+
+像这样的单单词有很多，需要平时积累发音。
+
+### 关于备课
+* 无论现成的讲义有多么充分，一定要备课。
+* 做项目时，最好可以前后台老师一起备课。
+> 讲师改个接口很简单，但是对于学生们来说很难。  
+
+* 在讲基础课的时候偏向精英式教育，在做项目时候偏向普及教育。
+
+### 个人的一点建议
+* 我们讲师的目标是什么
+* 我们为了达到目的使用了什么手段
+* 如果你的课时数量增加或是减少了，你要如何分配重点
