@@ -36,10 +36,86 @@ description: "4年前端开发经验，5年团队管理经验，做过千万级�
 <p>
 	<label for="">联系方式：</label>186-9880-9463
 </p>
+<style>
+	.img-container {
+		display: grid;
+		width: 100%;
+		grid-template-columns: 45%;
+		grid-row-gap: 20px;
+		justify-content: center;
+		align-content: center;
+	}
+	/* .img-container .item {
+		
+	} */
+	.img-header {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+	.img-item {
+		width: 100%;
+	}
+</style>
+<!-- <h2>获得证书</h2>
+<div class="img-container">
+	<div class="item">
+		<div class="img-header">Project Management Professional(PMP)</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/pmp.png"| prepend: site.baseurl }}" alt="">
+		</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/pmp-detail.png"| prepend: site.baseurl }}" alt="">
+		</div>
+	</div>
+	<div class="item">
+		<div class="img-header">ACAA资格证书</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/ACAA1.jpeg"| prepend: site.baseurl }}" alt="">
+		</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/ACAA2.jpeg"| prepend: site.baseurl }}" alt="">
+		</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/ACAA3.jpeg"| prepend: site.baseurl }}" alt="">
+		</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/ACAA4.jpeg"| prepend: site.baseurl }}" alt="">
+		</div>
+	</div>
+	<div class="item">
+		<div class="img-header">高级软件工程师认证</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/coding.jpg"| prepend: site.baseurl }}" alt="">
+		</div>
+	</div>
+	<div class="item">
+		<div class="img-header">Adobe中国设计师认证</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/adobe.jpg"| prepend: site.baseurl }}" alt="">
+		</div>
+	</div>
+	
+	<div class="item">
+		<div class="img-header">讲师认证</div>
+		<div class="img-item">
+			<img src="{{"/assets/img/intro/edu.jpeg"| prepend: site.baseurl }}" alt="">
+		</div>
+	</div>
+</div> -->
 
 <h2>专业技能</h2>
 
 <ul class="skill-list">
+	<li>项目管理
+		<p>有项目管理经验，最多带领过有20+团队成员的团队，并主导过项目集的研发工作。</p>
+		<p>有项目型、职能型、与矩阵型团队管理经验。并获得Project Management Professional(PMP)资质。</p>
+		<p>在2C项目中使用过敏捷开发管理模式并使用过灰度发布模式来迭代产品版本。</p>
+	</li>
+	<li>产品设计
+		<p>有2B、2C、2O产品设计经验，主导日活5W+的产品功能设计和迭代，并获得ACAA认证。</p>
+		<p>有丰富的产品功能设计经验，著有<a href="{{site.baseurl}}/product-manage/">规划与设计</a>系列教程。</p>
+		<p>有基础的UI设计能力，可以根据业务的需要独立设计与重构产品UI，并著有<a href="{{site.baseurl}}/ux-make-your-desgin-better/">webUI重构规范指南</a>供团队使用。</p>
+	</li>
 	<li>UX设计
 		<p>精通市面<a href="{{site.baseurl}}/UX-fav">主流原型设计工具</a>并对axure、sketch等进行过深入研究，且编写过axure教程供新手参照。</p>
 	</li>
@@ -66,16 +142,7 @@ description: "4年前端开发经验，5年团队管理经验，做过千万级�
 			对数据可视化有独到见解，发布《数据可视化在行业中的实践与应用》等系列专栏。
 		</p>
 	</li>
-	<li>项目管理
-		<p>有项目管理经验，最多带领过有20+团队成员的团队，并主导过项目集的研发工作。</p>
-		<p>有项目型、职能型、与矩阵型团队管理经验。并获得Project Management Professional(PMP)资质。</p>
-		<p>在2C项目中使用过敏捷开发管理模式并使用过灰度发布模式来迭代产品版本。</p>
-	</li>
-	<li>产品设计
-		<p>有2B、2C、2O产品设计经验，主导日活5W+的产品功能设计和迭代，并获得ACAA认证。</p>
-		<p>有丰富的产品功能设计经验，著有<a href="{{site.baseurl}}/product-manage/">规划与设计</a>系列教程。</p>
-		<p>有基础的UI设计能力，可以根据业务的需要独立设计与重构产品UI，并著有<a href="{{site.baseurl}}/ux-make-your-desgin-better/">webUI重构规范指南</a>供团队使用。</p>
-	</li>
+
 </ul>
 
 <h2>工作经历</h2>
@@ -84,10 +151,28 @@ description: "4年前端开发经验，5年团队管理经验，做过千万级�
 	<li><a href="https://www.neusoft.com/cn/about/index.html">东软集团股份有限公司</a></li>
 	<li>上海思锐科技有限公司</li>
 	<li>南京优飞数科有限责任公司</li>
+	<li>北京德风新征程科技有限公司</li>
 </ul>
 
-<h2>项目/产品经验(最近)</h2>
+<h2 style="margin-top: 40px;">项目/产品经验(最近)</h2>
 <ul>
+	<li><a href="#">某省国网移动运营监控平台</a>
+		<p>
+				<b>项目简介： </b>
+				通过信息化手段，将原有的传统线下运营模式改为线上线下混合经营的模式，同时实现各业务流和资金流的运营监控管理。使得再线下办理业务受阻的情况下，可以使用线上移动办公的模式使得业务得以延续，从而保障新型资金管理系统安全、高效、规范运行。
+		</p>
+		<p>
+				<b>职责：</b>项目经理
+		</p>
+		<p>
+				<b>主要成绩：</b><br>
+				<b>1、在整个项目周期内，持续与客户沟通并确认项目范围，持续追踪项目进度，最终达到项目无延期上线的合同要求。</b><br>
+				<b>2、在项目初期建立需求沟通矩阵，有效控制项目范围蔓延的情况发生，从而有效控制项目成本。</b><br>
+				<b>3、在完成功能的同时，深度挖掘客户需求，提高客户满意度。</b><br>
+		</p>
+
+	</li>
+
 	<li><a href="#">优呼new-saas营销平台</a>
 		<p>
 				<b>项目简介： </b>

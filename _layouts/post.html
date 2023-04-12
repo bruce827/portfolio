@@ -1,5 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
+<html 
+    lang="zh" 
+    
+    {% if page.main-class %}
+        class="post-{{ page.main-class }}"
+    {% endif %}
+    >
+    <!-- itemscope 
+    itemtype="http://schema.org/BlogPosting" 
+    -->
     {% include head.html %}
     <body>
         {% include svg-icons.html %}
